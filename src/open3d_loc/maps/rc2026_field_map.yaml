@@ -1,0 +1,9 @@
+image: /home/futureflow/ws_loc/src/open3d_loc/maps/rc2026_field_map.pgm
+mode: trinary
+resolution: 0.1
+# Standard Nav2 occupancy-map origin: lower-left corner of the image in the
+# centered Gazebo/world frame.
+origin: [-7.05, -7.05, 0.0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25
